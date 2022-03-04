@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset= "UTF-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <meta http-equiv= "X-UA-Compatible" content= "ie=edge">
+    <title> Pedidos </title>
+    <link rel= "shortcut icon" href="img/Bake.png" type= "image/x-icon">
+    <link rel= "stylesheet" href= "css/estilos.css">
+    <link href= "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href= "Principal.html"> Inicio </a>
+            <a href= "SobreNosotros.html"> Sobre Nosotros </a>
+            <a href= "Pedidos.html"> Pedidos    </a>
+            <a href= "Contacto.html"> Contacto   </a>
+        </nav>
+        <section class= "textos-header">
+            <h1> Pedidos </h1>
+            <h2> Personaliza tu pastel como quieras </h2>
+        </section>
+        <div class= "wave" style="height: 150px; overflow: hidden;"><svg viewBox= "0 0 500 150" preserveAspectRatio= "none"
+                style= "height: 100%; width: 100%;">
+                <path d= "M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style= "stroke: none; fill: rgb(253, 179, 248);"></path>
+            </svg></div>
+    
+    </header>
+
+    <main>
+        <section class= "contenedor sobre-nosotros">
+            <h2 class= "titulo"> Personaliza tu pastel a tu gusto </h2>
+            <div class= "contenedor-sobre-nosotros">
+                <div class= "contenido-textos">
+                    <form method="Pedido" action="Correcto.html">
+                        <h3><label for="nombre"> Ingresa tu nombre </label><br></h3>
+                        <input type="text" class="NombreCliente" placeholder="Ingresa tu nombre">
+                        <br>
+                        <br>
+                        <h3><label for="direccion"> Ingresa direccion de entrega </label><br></h3>
+                        <input type="text" class="DireccionCliente" placeholder="Ingresa tu direccion">
+                        <br>
+                        <br>
+                        <h3><label for="telefono"> Ingresa tu teléfono </label><br></h3>
+                        <input type="tel" class = "TelefonoCliente" maxlength="10" placeholder="Ingresa tu telefono">
+                        <br>
+                        <br>
+                        <h3> Pastel Deseado </h3>
+                        <div class= "galeria-port">
+                            <div class= "imagen-port">
+                                <img src= "img/PastelUnicornio.jpg" alt="">
+                                <div class= "hover-galeria">
+                                    <img src= "img/PastelUnicornio.jpg" alt="">
+                                    <p> 350 Pesos </p>
+                                </div>
+                            </div>
+                            <div class= "imagen-port">
+                                <img src= "img/PastelArcoIris.jpg" alt="">
+                                <div class= "hover-galeria">
+                                    <img src= "img/PastelArcoIris.jpg" alt="">
+                                    <p> 300 Pesos </p>
+                                </div>
+                            </div>
+                            <div class= "imagen-port">
+                                <img src= "img/PastelChocolate.jpg" alt="">
+                                <div class= "hover-galeria">
+                                    <img src= "img/PastelChocolate.jpg" alt="">
+                                    <p> 400 Pesos </p>
+                                </div>
+                            </div>
+                            <div class= "imagen-port">
+                                <img src= "img/PastelCorazon.jpg" alt="">
+                                <div class= "hover-galeria">
+                                    <img src= "img/PastelCorazon.jpg" alt="">
+                                    <p> 350 Pesos </p>
+                                </div>
+                            </div>
+                            <div class= "imagen-port">
+                                <img src= "img/PastelBoda.jpg" alt="">
+                                <div class= "hover-galeria">
+                                    <img src= "img/PastelBoda.jpg" alt="">
+                                    <p> 700 Pesos </p>
+                                </div>
+                            </div>
+                            <div class= "imagen-port">
+                                <img src= "img/PastelIker.jpg" alt="">
+                                <div class= "hover-galeria">
+                                    <img src= "img/PastelIker.jpg" alt="">
+                                    <p> 500 Pesos </p>
+                                </div>
+                            </div>
+                            <div class= "imagen-port">
+                                <img src= "img/PastelSistemaSolar.png" alt="">
+                                <div class= "hover-galeria">
+                                    <img src= "img/PastelSistemaSolar.png" alt="">
+                                    <p> 300 Pesos </p>
+                                </div>
+                            </div>
+                            <div class= "imagen-port">
+                                <img src= "img/PastelRosa.jpg" alt="">
+                                <div class= "hover-galeria">
+                                    <img src= "img/PastelRosa.jpg" alt="">
+                                    <p> 350 Pesos </p>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="radio" id="Unicornio" name="Pasteles" value="Unicornio">
+                        <label for="Unicornio"> Unicornio </label><br>
+                        <input type="radio" id="ArcoIris" name="Pasteles" value="ArcoIris">
+                        <label for="Arco Iris"> Arco Iris </label><br>
+                        <input type="radio" id="Chocolate" name="Pasteles" value="Chocolate">
+                        <label for="Chocolate"> Chocolate </label><br>
+                        <input type="radio" id="Corazon" name="Pasteles" value="Corazon">
+                        <label for="Corazon"> Corazon </label><br>
+                        <input type="radio" id="Boda" name="Pasteles" value="Boda">
+                        <label for="Boda"> Boda </label><br>
+                        <input type="radio" id="Iker" name="Pasteles" value="Iker">
+                        <label for="Iker"> Iker </label><br>
+                        <input type="radio" id="SSolar" name="Pasteles" value="SSolar">
+                        <label for="SSolar"> Sistema Solar </label><br>
+                        <input type="radio" id="Rosa" name="Pasteles" value="Rosa">
+                        <label for="Rosa"> Rosa </label>
+                        <br>
+                        <br>
+                        <h3> ¿Desea un pastel especial? </h3>
+                        <h4> Ingrese una fotografia del pastel deseado </h4>
+                        <input type="file" id="archivo1" name="archivo1" multiple>
+                        <br>
+                        <br>
+                        <h3> Seleccione un relleno maximo 3 diferentes </h3>
+                        <input type="checkbox" name="Fresa" id="fresa" value="Fresas">
+                        <label for="Fresa"> Fresas </label>
+                        <input type="checkbox" name="Nuez" id="nuez" value="Nuez">
+                        <label for="Nuez"> Nuez </label>
+                        <input type="checkbox" name="Durazno" id="Durazno" value="Durazno">
+                        <label for="Durazno"> Durazno </label>
+                        <input type="checkbox" name="Piña" id="Piña" value="Piña">
+                        <label for="Piña"> Piña </label>
+                        <input type="checkbox" name="DulceLeche" id="DulceLeche" value="DulceLeche">
+                        <label for="DulceLeche"> Dulce de Leche </label>
+                        <br>
+                        <br>
+                        <h3> Seleccione la cubierta </h3>
+                        <input type="radio" id="Merengue" name="cubierta" value="Merengue">
+                        <label for="Merengue"> Merengue </label><br>
+                        <input type="radio" id="Buttercream" name="cubierta" value="Buttercream">
+                        <label for="Buttercream"> Buttercream </label><br>
+                        <input type="radio" id="Chantilly" name="cubierta" value="Chantilly">
+                        <label for="Chantilly"> Chantilly </label><br>
+                        <input type="radio" id="ChocolateFundido" name="cubierta" value="ChocolateFundido">
+                        <label for="ChocolateFundido"> ChocolateFundido </label><br>
+                        <input type="radio" id="GlaseReal" name="cubierta" value="GlaseReal">
+                        <label for="GlaseReal"> Glase Real </label><br>
+                        <input type="radio" id="Fondant" name="cubierta" value="Fondant">
+                        <label for="Fondant"> Fondant </label>
+                        <br>
+                        <br>
+                        <h3> Fecha de entrega </h3>
+                        <br>
+                        <input type="datetime-local" id="fecha2" name="fecha2">
+                        <br>
+                        <br>
+                        <h3> Número de Personas </h2>
+                        <input type="number" id="numero1" name="numero1" min="0" max="100">
+                        <br>
+                        <br>
+                        <h3> ¿Desea alguna frase especial?  </h3>
+                        <br>
+                        <input type="text" name="personalizado" id="personalizado" placeholder="Ejemplo: Feliz Cumpleaños">
+                        <br>
+                        <br>
+                        <input type="submit" value="Realizar Pedido">
+                    </form>
+                      
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class= "contenedor-footer">
+            <div class= "content-foo">
+                <h4> Telefono </h4>
+                <p> 000 000 0000 </p>
+            </div>
+            <div class= "content-foo">
+                <h4> Email </h4>
+                <p> ejemplo@ejemplo.com </p>
+            </div>
+            <div class="content-foo">
+                <h4> Ubicacion </h4>
+                <p> Toluca, Estado de México </p>
+            </div>
+            <div class="content-foo">
+                <h4> Horario Atención </h4>
+                <p> Lunes a Sabado 9:00 am - 20:00 pm </p>
+            </div>
+        </div>
+        <h2 class="titulo-final"> Elaborado por Luis Francisco Becerril Jurado </h2>
+    </footer>
+
+</body>
+</html>
